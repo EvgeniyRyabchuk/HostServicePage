@@ -7,8 +7,10 @@ header
 }
 .wraper 
 {
+	/*
 	max-width: 100%; 
 	overflow: hidden;
+	*/
 }
 
 main
@@ -95,17 +97,37 @@ header
  	width: 100%; 
 
  }
+ 
  section {
- 	margin-right: 0px; 
-	margin-left: 0px; 
+ 	width: 700px;
+ 	margin-left: auto; 
+	margin-right: auto;
 	} 
 	
 	.imageSection{ 
 		width: inherit;
 	 
 		 } 
+		 
 	img
 	{
 		width: 100%;
+		
 	} 
+	
+}
+
+@media (max-width: 740px) {
+
+section {
+ 	width: 100%;
+ 	margin-left: 0; 
+	margin-right: 0;
+	} 
+
+	.HeaderTextDiv
+	{
+		font-size: 25px;
+		padding-top: 35px;
+	}
 }
