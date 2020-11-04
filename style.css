@@ -93,9 +93,11 @@ header
  main
  {
  	width: 100%; 
+
  }
  section {
- 	
+ 		margin-right: 0px; 
+	margin-left: 0px; 
 	} 
 	
 	.imageSection{ 
