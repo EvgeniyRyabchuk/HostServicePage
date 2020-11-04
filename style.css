@@ -86,7 +86,7 @@ picture
 }
 
 
-@media (max-width: 1030px) {
+@media (max-width: 1200px) {
 header
 {
 	width: 100%;
@@ -101,7 +101,7 @@ header
  section {
  	width: 700px;
  	margin-left: auto; 
-	margin-right: auto;
+	margin-right: auto; 
 	} 
 	
 	.imageSection{ 
@@ -117,7 +117,7 @@ header
 	
 }
 
-@media (max-width: 740px) {
+@media (max-width: 1030px) {
 
 section {
  	width: 100%;
